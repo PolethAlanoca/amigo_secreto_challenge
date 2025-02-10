@@ -10,6 +10,7 @@ function agregarAmigo (){
     }
     amigos.push(amigo);
     asignarTextoElemento();
+    input.value ="";
 }
 
 function asignarTextoElemento() {
@@ -23,7 +24,7 @@ function asignarTextoElemento() {
 }
 
 function sortearAmigo() {
-    if (amigos.length === 0) {
+    if (amigos.length == 0) {
         alert("La lista está vacía. Agrega nombres antes de sortear.");
         return;
     }
