@@ -17,7 +17,7 @@ function asignarTextoElemento() {
     elementoHTML.innerHTML = "";
     amigos.forEach(elemento => {
         let li = document.createElement("li");
-        li.textContent = nombre;
-        lista.appendChild(li);
+        li.textContent = elemento;
+        amigos.appendChild(li);
     });       
 }
