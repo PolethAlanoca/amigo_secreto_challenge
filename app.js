@@ -11,6 +11,7 @@ function agregarAmigo (){
     amigos.push(amigo);
     asignarTextoElemento();
     input.value ="";
+    document.getElementById("resultado").textContent = "";
 }
 
 function asignarTextoElemento() {
